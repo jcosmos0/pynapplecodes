@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="http://gmpg.org/xfn/11" rel="profile">
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<title>Thinny 2: a Jekyll theme &middot; Thinny</title>
+	<meta name="mobile-web-app-capable" content="yes">
+	<meta name="HandheldFriendly" content="True" />
+	<meta name="MobileOptimized" content="320" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" type="text/css" media="only screen and (min-width: 1001px)" href="/assets/css/desktop.css" />
+	<link rel="stylesheet" type="text/css" media="only screen and (max-width: 1000px)" href="/assets/css/mobile.css" />
+	<link href="/assets/css/genericons.css" type="text/css" rel="stylesheet" />
+	<link href="/assets/css/syntax.css" type="text/css" rel="stylesheet" />
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700|PT+Sans:400">
+	<link rel="apple-touch-icon" href="http://localhost:4000/assets/images/icon.png">
+	<link rel="shortcut icon" href="http://localhost:4000/assets/images/favicon.ico">
+	<link rel="alternate" type="application/rss+xml" title="RSS" href="http://localhost:4000/atom.xml">
+</head>
+<body>
+	<header class="clean" style="background-image: url(/assets/images/cover.jpg);height: 100%;">
+	
+	<label class="menu" for="_1">
+	<span class="genericon genericon-menu"></span>
+</label>
+<input id="_1" type="checkbox">
+<div class="menu-content">
+	<div class="menu" style="background-color: #777; z-index: -1;"></div>
+	
+	<a href="/">Home</a><br>
+	
+	<a href="/about">About</a><br>
+	
+</div>
+<div class="social-links">
+	
+	<a href="https://twitter.com/iancamporez" target="_blank" title="Follow me on twitter"><span class="genericon genericon-twitter"></span></a>
+	
+	<a href="https://github.com/camporez" target="_blank" title="Fork me on github"><span class="genericon genericon-github"></span></a>
+	
+	<a href="https://google.com/+IanCamporezBrunelli" target="_blank" title="Add me on google+"><span class="genericon genericon-googleplus-alt"></span></a>
+	
+	<a href="http://camporez.com/atom.xml" target="_blank" title="Subscribe to my feed"><span class="genericon genericon-feed"></span></a>
+	
+</div>
+	<div id="post-info">
+		<h1>Thinny 2: a Jekyll theme</h1>
+		
+			<h2>The Infinite's Nymphet has a new look, a new codename, and a new platform!</h2>
+		
+		<a class="site-title" href="http://localhost:4000"><img src="/assets/images/icon.png" class="site-icon-small">Thinny</a>, in 22 January 2014
+	</div>
+	<div id="nav-icon" style="bottom: 60px;">
+		<a class="scroll" data-speed="1000" href="#article"><span class="genericon genericon-expand"></span></a>
+	</div>
+</header>
+<div id="article">
+	<p>Three months ago, I released an (unfinished) theme for Ghost 0.3: <a href="http://github.com/camporez/Thinny">Thinny 0.3</a>, codename “<a href="http://nikita2010.wikia.com/wiki/Alexandra_Udinov">Alexandra</a>”.
+But now I’m migrating my blog to Jekyll, and also migrating the theme. With a brand new look, Thinny 2 also brings a lot of new features and polishment. Actually, it was completely remaked.</p>
+
+<p>#Thinny 2.0, codename “<a href="http://memoriaglobo.globo.com/programas/entretenimento/novelas/caras-bocas/caras-bocas-bianca-isabelle-drummond.htm">Bianca</a>”</p>
+
+<p>This new version of Thinny goes deeper with the <a href="http://ghost-camporez.rhcloud.com/making-applications-icon-smaller-on-gnome-shells-top-panel/">initial idea</a> of a big image before the post. As the saying goes, <cite>a picture is worth a thousand words</cite>, so we expanded the concept. I mean, literally. The post image (or video!) is now full width and full height, and can be easily add with the use of a variable.
+##Features</p>
+
+<h3 id="lists-and-text-formatting">Lists and text formatting</h3>
+
+<p>You can use various HTML tags:</p>
+
+<ul>
+  <li><strong>To bold text</strong>, use <code class="highlighter-rouge">&lt;strong&gt;</code>.</li>
+  <li><em>To italicize text</em>, use <code class="highlighter-rouge">&lt;em&gt;</code>.</li>
+  <li>Abbreviations, like <abbr title="HyperText Markup Langage">HTML</abbr> should use <code class="highlighter-rouge">&lt;abbr&gt;</code>, with an optional <code class="highlighter-rouge">title</code> attribute for the full phrase.</li>
+</ul>
+
+<ol>
+  <li>Citations, like <cite>— Thinny</cite>, should use <code class="highlighter-rouge">&lt;cite&gt;</code>.</li>
+  <li><del>Deleted</del> text should use <code class="highlighter-rouge">&lt;del&gt;</code> and <ins>inserted</ins> text should use <code class="highlighter-rouge">&lt;ins&gt;</code>.</li>
+  <li>Superscript <sup>text</sup> uses <code class="highlighter-rouge">&lt;sup&gt;</code> and subscript <sub>text</sub> uses <code class="highlighter-rouge">&lt;sub&gt;</code>.</li>
+</ol>
+
+<p>###Messages, code and images</p>
+
+<div class="message">This is a <strong>warning</strong> message. Now, you can keep falling in love with this theme...</div>
+
+<p>You can add <code class="highlighter-rouge">code elements</code> with highlight support:</p>
+<div class="highlight"><pre><code class="ruby"><span class="p">{</span><span class="o">%</span> <span class="kp">include</span> <span class="n">image</span><span class="o">.</span><span class="n">html</span> <span class="n">url</span><span class="o">=</span><span class="s2">&quot;/media/2014-01-22-thinny-2/bianca.jpg&quot;</span> <span class="n">width</span><span class="o">=</span><span class="s2">&quot;100&#37;&quot;</span> <span class="n">description</span><span class="o">=</span><span class="s2">&quot;Image captions are supported out of the box. Brilliant!&quot;</span> <span class="o">%</span><span class="p">}</span></code></pre></div>
+
+<p>Will output this:</p>
+
+<div><img src="/media/2014-01-22-thinny-2/bianca.jpg" alt="Image captions are supported out of the box. Brilliant!" width="100%" />
+<blockquote style="border-left: 10px solid #D5D5D5;">Image captions are supported out of the box. Brilliant!</blockquote></div>
+
+<h3 id="table">Table</h3>
+
+<p>Thinny also support html tag <code class="highlighter-rouge">&lt;table&gt;</code>:</p>
+<table>
+  <thead>
+    <tr>
+      <th>Version</th>
+      <th>Codename</th>
+      <th>Platform</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>[0.3](https://github.com/camporez/Thinny/releases/tag/v0.3-alexandra)</td>
+      <td>[Alexandra](http://nikita2010.wikia.com/wiki/Alexandra_Udinov)</td>
+      <td>Ghost 0.3.x</td>
+    </tr>
+    <tr>
+      <td>[2.0](https://github.com/camporez/Thinny/releases/tag/v2.0-bianca)</td>
+      <td>[Bianca](http://memoriaglobo.globo.com/programas/entretenimento/novelas/caras-bocas/caras-bocas-bianca-isabelle-drummond.htm)</td>
+      <td>Jekyll</td>
+    </tr>
+    <tr>
+      <td>2.1</td>
+      <td>[Cosette](http://lesmiserables.wikia.com/wiki/Cosette)</td>
+      <td>Jekyll</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="mobile-version">Mobile version</h3>
+
+<p><strong>Coming soon…</strong></p>
+
+<h3 id="quote">Quote</h3>
+
+<blockquote>
+  <p>Did you liked it? You can <a href="https://github.com/camporez/Thinny/releases">download Thinny on GitHub</a>.</p>
+</blockquote>
+
+<hr />
+<p>Want to see something else added? <a href="https://github.com/camporez/camporez.github.io/issues/new">Open an issue</a>.</p>
+
+</div>
+
+<footer class="clean" style="background-image: url(/media/2014-02-26-hello-cosette/cover.jpg);height: 75%; min-height: 500px;">
+	<div id="nav-icon" style="top: 25px;">
+		<a class="scroll" data-speed="1000" href="#article"><span class="genericon genericon-collapse"></span></a>
+	</div>
+	<div id="post-info">
+		<h3>Featured post</h3>
+		<a href="/blog/hello-cosette">
+			<h1>Hello, Cosette</h1>
+			
+				<h2>Thinny reaches a new version, with mobile support and some other cool features.</h2>
+			
+		</a>
+	</div>
+	<p class="copyright">&copy;2017, <a href="http://camporez.com" target="_blank">Camporez</a>. <a href="http://creativecommons.org/licenses/by-nc/2.5" target="_blank">Some rights reserved</a>.</p>
+</footer>
+
+<script src="/assets/js/smooth-scroll.js"></script>
+</body>
+</html>

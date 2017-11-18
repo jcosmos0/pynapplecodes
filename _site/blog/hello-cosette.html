@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="http://gmpg.org/xfn/11" rel="profile">
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<title>Hello, Cosette &middot; Thinny</title>
+	<meta name="mobile-web-app-capable" content="yes">
+	<meta name="HandheldFriendly" content="True" />
+	<meta name="MobileOptimized" content="320" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" type="text/css" media="only screen and (min-width: 1001px)" href="/assets/css/desktop.css" />
+	<link rel="stylesheet" type="text/css" media="only screen and (max-width: 1000px)" href="/assets/css/mobile.css" />
+	<link href="/assets/css/genericons.css" type="text/css" rel="stylesheet" />
+	<link href="/assets/css/syntax.css" type="text/css" rel="stylesheet" />
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700|PT+Sans:400">
+	<link rel="apple-touch-icon" href="http://localhost:4000/assets/images/icon.png">
+	<link rel="shortcut icon" href="http://localhost:4000/assets/images/favicon.ico">
+	<link rel="alternate" type="application/rss+xml" title="RSS" href="http://localhost:4000/atom.xml">
+</head>
+<body>
+	<header class="clean" style="background-image: url(/media/2014-02-26-hello-cosette/cover.jpg);height: 100%;">
+	
+	<label class="menu" for="_1">
+	<span class="genericon genericon-menu"></span>
+</label>
+<input id="_1" type="checkbox">
+<div class="menu-content">
+	<div class="menu" style="background-color: #777; z-index: -1;"></div>
+	
+	<a href="/">Home</a><br>
+	
+	<a href="/about">About</a><br>
+	
+</div>
+<div class="social-links">
+	
+	<a href="https://twitter.com/iancamporez" target="_blank" title="Follow me on twitter"><span class="genericon genericon-twitter"></span></a>
+	
+	<a href="https://github.com/camporez" target="_blank" title="Fork me on github"><span class="genericon genericon-github"></span></a>
+	
+	<a href="https://google.com/+IanCamporezBrunelli" target="_blank" title="Add me on google+"><span class="genericon genericon-googleplus-alt"></span></a>
+	
+	<a href="http://camporez.com/atom.xml" target="_blank" title="Subscribe to my feed"><span class="genericon genericon-feed"></span></a>
+	
+</div>
+	<div id="post-info">
+		<h1>Hello, Cosette</h1>
+		
+			<h2>Thinny reaches a new version, with mobile support and some other cool features.</h2>
+		
+		<a class="site-title" href="http://localhost:4000"><img src="/assets/images/icon.png" class="site-icon-small">Thinny</a>, in 26 February 2014
+	</div>
+	<div id="nav-icon" style="bottom: 60px;">
+		<a class="scroll" data-speed="1000" href="#article"><span class="genericon genericon-expand"></span></a>
+	</div>
+</header>
+<div id="article">
+	<p>#Thinny 2.1, codename “<a href="http://lesmiserables.wikia.com/wiki/Cosette">Cosette</a>”</p>
+
+<p>Cosette is the main character of the french novel <em>Les Misérables</em>, published in 1862 by <em>Victor Hugo</em>.</p>
+
+<div><img src="/media/2014-02-26-hello-cosette/cosette.jpg" alt="Amanda Seyfried as Cosette on the 2012 movie." width="100%" />
+<blockquote style="border-left: 10px solid #D5D5D5;">Amanda Seyfried as Cosette on the 2012 movie.</blockquote></div>
+
+<p>This new version of Thinny comes with mobile support and some bugfixes.</p>
+
+<h2 id="usage">Usage</h2>
+
+<h3 id="main-variables">Main variables</h3>
+
+<p>The global variables are set on the <code class="highlighter-rouge">_config.yml</code> file.</p>
+
+<p>To start, you need to change at least the variable <code class="highlighter-rouge">url</code> on the file.</p>
+
+<h4 id="social-links">Social links</h4>
+
+<p>To add a social link you just need to add the following code inside the variable <code class="highlighter-rouge">social</code>:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  - icon:	[the genericon name for the social network]
+    url:	[the url to follow]
+    desc:	[a small description for the link (e.g. "Follow me on twitter")]
+</code></pre></div></div>
+
+<h4 id="menu">Menu</h4>
+
+<p>To add a menu item you just need to add the following code inside the variable <code class="highlighter-rouge">menu</code>:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  - title:	[title of the menu item]
+    url:	[the url to follow]
+</code></pre></div></div>
+
+<h4 id="others">Others</h4>
+
+<p>You’ll find a lot of other variables inside the file, e.g.:</p>
+
+<ul>
+  <li>the site <code class="highlighter-rouge">title</code>, <code class="highlighter-rouge">description</code>, <code class="highlighter-rouge">icon</code> and default <code class="highlighter-rouge">cover</code> image.</li>
+  <li>text of the <code class="highlighter-rouge">copyright</code> message.</li>
+  <li>the number of posts per page (<code class="highlighter-rouge">paginate</code>).</li>
+  <li>the <code class="highlighter-rouge">permalink</code>’s structure (see <a href="http://jekyllrb.com/docs/pagination/">the docs</a>).</li>
+</ul>
+
+<h3 id="default-yaml-tags">Default YAML tags</h3>
+
+<ul>
+  <li><code class="highlighter-rouge">layout:</code><i><code class="highlighter-rouge">post, page</code></i> <code class="highlighter-rouge">or </code><i><code class="highlighter-rouge">fullscreen</code></i>: defines the layout of the page.</li>
+  <li><code class="highlighter-rouge">title: [string]</code>: title of the post.</li>
+  <li><code class="highlighter-rouge">quote: [string]</code>: a small description of the post to be shown above the title.</li>
+  <li><code class="highlighter-rouge">dark:</code><i><code class="highlighter-rouge">true</code></i> <code class="highlighter-rouge">or </code><i><code class="highlighter-rouge">false</code></i>: use black font (instead of white) for the header (default value is false).</li>
+  <li><code class="highlighter-rouge">image: [url] or </code><i><code class="highlighter-rouge">false</code></i>: a cover image for the post (default value is <em>false</em>).</li>
+  <li><code class="highlighter-rouge">video:</code><i><code class="highlighter-rouge">true</code></i> <code class="highlighter-rouge">or </code><i><code class="highlighter-rouge">false</code></i>: add a cover video for the post (default value is <em>false</em>).</li>
+  <li><code class="highlighter-rouge">video_mp4: [url]</code>: the URL for the mp4 video.</li>
+  <li><code class="highlighter-rouge">video_webm: [url]</code>: the URL for the webm video.</li>
+  <li><code class="highlighter-rouge">video_ogv: [url]</code>: the URL for the ogv video.</li>
+</ul>
+
+<h2 id="versions">Versions</h2>
+
+<p>Here is a <code class="highlighter-rouge">&lt;table&gt;</code> with all Thinny’s versions:</p>
+<table>
+  <thead>
+    <tr>
+      <th>Version</th>
+      <th>Codename</th>
+      <th>Platform</th>
+      <th>Release date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>[0.3](https://github.com/camporez/Thinny/releases/tag/v0.3-alexandra)</td>
+      <td>[Alexandra](http://nikita2010.wikia.com/wiki/Alexandra_Udinov)</td>
+      <td>Ghost 0.3.x</td>
+      <td>November 2013</td>
+    </tr>
+    <tr>
+      <td>[2.0](https://github.com/camporez/Thinny/releases/tag/v2.0-bianca)</td>
+      <td>[Bianca](http://memoriaglobo.globo.com/programas/entretenimento/novelas/caras-bocas/caras-bocas-bianca-isabelle-drummond.htm)</td>
+      <td>Jekyll</td>
+      <td>January 2014</td>
+    </tr>
+    <tr>
+      <td>[2.1](https://github.com/camporez/Thinny/releases/tag/v2.1-cosette)</td>
+      <td>[Cosette](http://lesmiserables.wikia.com/wiki/Cosette)</td>
+      <td>Jekyll</td>
+      <td>March 2014</td>
+    </tr>
+    <tr>
+      <td>2.2</td>
+      <td>[Dolores](http://en.wikipedia.org/wiki/Dolores_Haze)</td>
+      <td>Jekyll</td>
+      <td><i>Soon (see the [issues list](https://github.com/camporez/camporez.github.io/issues?milestone=3))</i></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="download">Download</h2>
+
+<blockquote>
+  <p>Thinny 2.1 is already <a href="https://github.com/camporez/Thinny/releases">available for download on GitHub</a>.</p>
+</blockquote>
+
+<hr />
+<p>Want to see something else added or report a bug? <a href="https://github.com/camporez/camporez.github.io/issues/new">Open an issue</a>.</p>
+
+</div>
+
+<footer class="clean" style="background-image: url(/assets/images/cover.jpg);height: 75%; min-height: 500px;">
+	<div id="nav-icon" style="top: 25px;">
+		<a class="scroll" data-speed="1000" href="#article"><span class="genericon genericon-collapse"></span></a>
+	</div>
+	<div id="post-info">
+		<h3>Featured post</h3>
+		<a href="/blog/thinny-2">
+			<h1>Thinny 2: a Jekyll theme</h1>
+			
+				<h2>The Infinite's Nymphet has a new look, a new codename, and a new platform!</h2>
+			
+		</a>
+	</div>
+	<p class="copyright">&copy;2017, <a href="http://camporez.com" target="_blank">Camporez</a>. <a href="http://creativecommons.org/licenses/by-nc/2.5" target="_blank">Some rights reserved</a>.</p>
+</footer>
+
+<script src="/assets/js/smooth-scroll.js"></script>
+</body>
+</html>
