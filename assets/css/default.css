@@ -228,7 +228,7 @@ abbr[title] {
 	border-bottom: 1px dotted #e5e5e5;
 }
 
-blockquote, pre, .message {
+blockquote, pre, .message, .message2, .message3 {
 	padding: 10px 18px;
 	margin: 0px 0px 30px -20px;
 	margin-top: inherit;
@@ -246,7 +246,19 @@ blockquote p {
 
 .message {
 	border-left: 10px solid #F66A81;
+    background-color: #e8e8e8;
 }
+
+.message2 {
+	border-left: 10px solid #CAFFA3;
+    background-color: #e8e8e8;
+}
+
+.message3 {
+	border-left: 10px solid #B7C2FF;
+    background-color: #e8e8e8;
+}
+
 
 code, pre {
 	font-family: Menlo, Monaco, "Courier New", monospace;
@@ -486,4 +498,23 @@ pre code {
 .post-date {
 	font-size: 12pt;
 	color: #999;
+}
+.post-tags{
+        display: inline-block;
+    width: auto;
+    height: 22px;
+    padding: 0 8px;
+    font-size: 14px;
+    color: #a6abb2;
+    font-family: -apple-system,Verdana,"PingFang SC","Helvetica Neue",Arial,"Hiragino Sans GB","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif;
+    line-height: 22px;
+    box-sizing: border-box;
+    box-shadow: 0 0 0.6px #d5dae1;
+    border-radius: 2px;
+    background-color: #fafafa;
+    cursor: pointer;
+    margin-right: 2px;
+    transition: .2s;
+    
+    
 }
