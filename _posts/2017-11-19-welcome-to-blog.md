@@ -4,11 +4,11 @@ title: "Welcome to Pynapple Codes"
 quote: Pineapples are awesome, but Python is even better
 image: false
 video: false
-dark: true
+dark: false
 desc: "This blog is to teach Python, a programming language that is used by professionals and beginners"
 ---
 
-This blo
+This blog is going to start
 
 #Thinny 2.0, codename "[Bianca](http://memoriaglobo.globo.com/programas/entretenimento/novelas/caras-bocas/caras-bocas-bianca-isabelle-drummond.htm)"
 
