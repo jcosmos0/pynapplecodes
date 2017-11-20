@@ -4,10 +4,11 @@ title: "Welcome to Pynapple Codes"
 quote: Pineapples are awesome, but Python is even better
 image: false
 video: false
+dark: true
+desc: "This blog is to teach Python, a programming language that is used by professionals and beginners"
 ---
 
-Three months ago, I released an (unfinished) theme for Ghost 0.3: [Thinny 0.3](http://github.com/camporez/Thinny), codename "[Alexandra](http://nikita2010.wikia.com/wiki/Alexandra_Udinov)".
-But now I'm migrating my blog to Jekyll, and also migrating the theme. With a brand new look, Thinny 2 also brings a lot of new features and polishment. Actually, it was completely remaked.
+This blo
 
 #Thinny 2.0, codename "[Bianca](http://memoriaglobo.globo.com/programas/entretenimento/novelas/caras-bocas/caras-bocas-bianca-isabelle-drummond.htm)"
 
