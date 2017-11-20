@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Thinny 2: a Jekyll theme"
-quote: The Infinite's Nymphet has a new look, a new codename, and a new platform!
+title: "Welcome to Pynapple Codes"
+quote: Pineapples are awesome, but Python is even better
 image: false
 video: false
 ---
