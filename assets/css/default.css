@@ -117,6 +117,7 @@ img.site-icon {
 	border-radius: 50%;
 	transition-duration: .25s;
 	opacity: .9;
+	transform: scale(1.7);
 }
 
 img.site-icon:hover {
