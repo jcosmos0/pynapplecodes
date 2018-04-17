@@ -1,11 +1,11 @@
 ---
 layout: post
 title: "What is python?"
-quote: Quotes are dumb
-image: /assets/posts/2017-11-25-what-is-python/header.png
+quote: It is pretty self explanitory
+image: /assets/posts/2018-04-17-installing-python/fabian-irsara-92113-unsplash.jpg
 video: false
 dark: false
-desc: "What Python is, who uses it and when is it used."
+desc: "Installing Python and showing how to customise it"
 tags: Programs
 unsplash: Photo by Fabian Irsara on Unsplash
 ---
