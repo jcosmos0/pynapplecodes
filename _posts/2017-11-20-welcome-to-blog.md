@@ -7,6 +7,7 @@ video: false
 dark: false
 desc: "This blog is to teach Python, a programming language that is used by professionals and beginners"
 tags: Starting
+unsplash: no
 ---
 
 <div class="message2">This blog is going to start as if you don't know how to program in the slightest, though you can join at anytime</div>

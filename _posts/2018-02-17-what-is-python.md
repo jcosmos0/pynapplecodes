@@ -7,6 +7,7 @@ video: false
 dark: false
 desc: "What Python is, who uses it and when is it used."
 tags: Explanation
+unsplash: no
 ---
 
 ### What is Python?
