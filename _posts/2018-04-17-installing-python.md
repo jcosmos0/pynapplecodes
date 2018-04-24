@@ -7,7 +7,6 @@ video: false
 dark: false
 desc: "Installing Python and showing how to customise it"
 tags: Programs
-unsplash: Photo by Fabian Irsara on Unsplash
 ---
 
 ### Installing
