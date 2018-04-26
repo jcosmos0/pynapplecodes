@@ -4,6 +4,7 @@ title: "Basic Functions"
 quote: Printing is not what you think
 image: /assets/posts/2018-04-24-basic-functions/max-nelson-492729-unsplash.jpg
 video: false
+comments: true
 dark: false
 desc: "Learning basic functions and some data types"
 tags: functions
