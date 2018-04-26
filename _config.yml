@@ -42,9 +42,6 @@ menu:
   - title:	Home
     url:	/
     
-  - title:	About
-    url:	/about
-    
 copyright:
   author:	PixelFireblade
   url:		https://pixelfireblade.github.io/
