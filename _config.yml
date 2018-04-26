@@ -41,6 +41,9 @@ social:
 menu:
   - title:	Home
     url:	/
+
+  - title: Newsletter
+    url: http://eepurl.com/dsL9RP
     
 copyright:
   author:	PixelFireblade
