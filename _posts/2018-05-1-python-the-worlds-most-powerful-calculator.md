@@ -15,12 +15,20 @@ We are going to be exploring the alternatives for Math's symbols in python and d
 
 ### Different data types
 There are 4 main datatypes for maths in Python, though we are going to be focusing on `int` and `floats`
-| Data Type     | Definition                                    | Example                                   |
+|     |                                     | Example                                   |
 | ------------- |:---------------------------------------------:| -----------------------------------------:|
-| `long`        | Long numbers (can also be reperesented in hex)| `3212421124241dsasdasadsadsad321221424234`|
-| `int`         | Whole Numbers                                 | `10`                                      |
-| `float`       | Numbers with a floating point (Decimals)      | `4.2`                                     |
+|         | | |
+|          |                                | `10`                                      |
+|        |      | `4.2`                                     |
 | `complex`     | Complex numbers                               | `2.71j`                                   |
+
+
+| Data Type  | Definition                                     | Example                                   |
+| ---------- |:----------------------------------------------:| -----------------------------------------:|
+| `long`     | Long numbers (can also be reperesented in hex) | `3212421124241dsasdasadsadsad321221424234`|
+| `int`      | Whole Numbers                                  |                                       `10`|
+| `float`    | Numbers with a floating point (Decimals)       |                                      `4.2`|
+| `complex`  | Complex Numbers                                |                                    `2.71j`|
 
 ### Which should I use
 Generally you wouldn't use `complex` and `long`, but there are some places where you would use it.
