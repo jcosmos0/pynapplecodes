@@ -15,13 +15,6 @@ We are going to be exploring the alternatives for Math's symbols in python and d
 
 ### Different data types
 There are 4 main datatypes for maths in Python, though we are going to be focusing on `int` and `floats`
-|     |                                     | Example                                   |
-| ------------- |:---------------------------------------------:| -----------------------------------------:|
-|         | | |
-|          |                                | `10`                                      |
-|        |      | `4.2`                                     |
-| `complex`     | Complex numbers                               | `2.71j`                                   |
-
 
 | Data Type  | Definition                                     | Example                                   |
 | ---------- |:----------------------------------------------:| -----------------------------------------:|
