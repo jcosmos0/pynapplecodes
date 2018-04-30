@@ -2,7 +2,7 @@
 layout: post
 title: "Python, a Calculator"
 quote: Hey come back!
-image: /assets/posts/2018-04-31-python-the-worlds-most-powerful-calculator/charles-deluvio-456506-unsplash.jpg
+image: /assets/posts/2018-05-1-python-the-worlds-most-powerful-calculator/charles-deluvio-456506-unsplash.jpg
 comments: true
 video: false
 dark: false
