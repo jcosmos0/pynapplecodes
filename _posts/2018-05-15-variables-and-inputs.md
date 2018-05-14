@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Variables and Inputs"
-quote: Hey come back!
+quote: Variables are variable
 image: /assets/posts/2018-05-15-variables-and-inputs/michael-mroczek-182813-unsplash.jpg
 comments: true
 video: false
