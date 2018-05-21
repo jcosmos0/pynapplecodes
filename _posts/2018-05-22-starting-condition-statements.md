@@ -2,7 +2,7 @@
 layout: post
 title: "If, Else"
 quote: If this then do that
-image: /assets/posts/2018-05-22-starting-condition-statements/if-else.jpg
+image: /assets/posts/2018-05-22-starting-condition-statements/if-else.jpeg
 comments: true
 video: false
 dark: false
